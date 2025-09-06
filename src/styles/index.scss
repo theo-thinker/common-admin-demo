@@ -1,0 +1,13 @@
+// 样式入口文件
+
+// 基础样式
+@import './variables.scss';
+@import './mixins.scss';
+@import './functions.scss';
+@import './reset.scss';
+@import './common.scss';
+@import './transition.scss';
+@import './element.scss';
+
+// 主题样式
+@import './themes/default.scss';

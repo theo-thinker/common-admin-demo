@@ -1,0 +1,86 @@
+// Element Plus样式覆盖
+
+// 表格
+.el-table {
+  .el-table__header th {
+    background-color: #f5f7fa;
+    color: #303133;
+    font-weight: 500;
+  }
+}
+
+// 分页
+.el-pagination {
+  margin-top: 20px;
+  text-align: right;
+}
+
+// 表单
+.el-form {
+  .el-form-item__label {
+    color: #606266;
+  }
+}
+
+// 按钮
+.el-button {
+  &.is-disabled {
+    cursor: not-allowed;
+  }
+}
+
+// 输入框
+.el-input {
+  &.is-disabled {
+    .el-input__inner {
+      background-color: #f5f7fa;
+      color: #c0c4cc;
+    }
+  }
+}
+
+// 下拉选择
+.el-select {
+  &.is-disabled {
+    .el-input__inner {
+      background-color: #f5f7fa;
+      color: #c0c4cc;
+    }
+  }
+}
+
+// 对话框
+.el-dialog {
+  border-radius: 8px;
+  
+  .el-dialog__header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e4e7ed;
+  }
+  
+  .el-dialog__body {
+    padding: 20px;
+  }
+  
+  .el-dialog__footer {
+    padding: 15px 20px;
+    border-top: 1px solid #e4e7ed;
+  }
+}
+
+// 卡片
+.el-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  
+  .el-card__header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e4e7ed;
+    font-weight: 500;
+    color: #303133;
+  }
+  
+  .el-card__body {
+    padding: 20px;
+  }
+}

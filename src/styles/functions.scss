@@ -1,0 +1,21 @@
+// 函数
+
+// px转rem
+@function px2rem($px) {
+  @return ($px / 16) * 1rem;
+}
+
+// px转em
+@function px2em($px) {
+  @return ($px / 16) * 1em;
+}
+
+// 颜色混合
+@function color-mix($color1, $color2, $weight: 50%) {
+  @return mix($color1, $color2, $weight);
+}
+
+// 计算渐变色
+@function gradient-color($start-color, $end-color, $percentage) {
+  @return mix($end-color, $start-color, $percentage);
+}

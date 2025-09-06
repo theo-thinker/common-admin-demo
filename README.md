@@ -1,38 +1,61 @@
-# demo
+# 通用后台管理系统
 
-This template should help get you started developing with Vue 3 in Vite.
+基于Vue 3、TypeScript、Element Plus等现代前端技术栈构建的企业级后台管理系统。
 
-## Recommended IDE Setup
+## 项目概述
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+本项目旨在开发一个功能完整、易于扩展的通用后台管理系统，遵循企业级开发最佳实践，提供可扩展、可维护的后台管理解决方案。
 
-## Type Support for `.vue` Imports in TS
+## 技术栈
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- Vue 3
+- TypeScript
+- Element Plus
+- Pinia
+- Vue Router
+- Vite
+- Axios
 
-## Customize configuration
+## 项目结构
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+```
+src/
+├── api/                    # 接口请求封装
+├── assets/                 # 静态资源文件
+├── components/             # 全局公共组件
+├── composables/            # Vue组合式API封装
+├── directives/             # 自定义指令
+├── hooks/                  # 自定义Hooks
+├── layouts/                # 页面布局组件
+├── locales/                # 国际化资源
+├── router/                 # 路由配置
+├── stores/                 # 状态管理
+├── styles/                 # 全局样式文件
+├── utils/                  # 工具函数库
+├── views/                  # 页面视图组件
+├── App.vue                 # 根组件
+└── main.ts                 # 入口文件
+```
 
-## Project Setup
+## 项目设置
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 开发环境
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### 生产环境构建
 
 ```sh
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### 单元测试
 
 ```sh
 npm run test:unit

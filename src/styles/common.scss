@@ -1,0 +1,365 @@
+// 公共样式
+
+// 文本对齐
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+// 浮动
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+// 显示隐藏
+.hidden {
+  display: none !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+// 字体粗细
+.font-weight-primary {
+  font-weight: $font-weight-primary;
+}
+
+.font-weight-secondary {
+  font-weight: $font-weight-secondary;
+}
+
+.font-weight-bold {
+  font-weight: $font-weight-bold;
+}
+
+// 文本颜色
+.text-primary {
+  color: $text-primary;
+}
+
+.text-regular {
+  color: $text-regular;
+}
+
+.text-secondary {
+  color: $text-secondary;
+}
+
+.text-placeholder {
+  color: $text-placeholder;
+}
+
+.text-primary-color {
+  color: $primary-color;
+}
+
+.text-success {
+  color: $success-color;
+}
+
+.text-warning {
+  color: $warning-color;
+}
+
+.text-danger {
+  color: $danger-color;
+}
+
+.text-info {
+  color: $info-color;
+}
+
+// 背景色
+.bg-white {
+  background-color: $white;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.bg-primary-color {
+  background-color: $primary-color;
+}
+
+.bg-success {
+  background-color: $success-color;
+}
+
+.bg-warning {
+  background-color: $warning-color;
+}
+
+.bg-danger {
+  background-color: $danger-color;
+}
+
+.bg-info {
+  background-color: $info-color;
+}
+
+.bg-base {
+  background-color: $background-color-base;
+}
+
+.bg-light {
+  background-color: $background-color-light;
+}
+
+// 边框
+.border {
+  border: 1px solid $border-color-base;
+}
+
+.border-top {
+  border-top: 1px solid $border-color-base;
+}
+
+.border-right {
+  border-right: 1px solid $border-color-base;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $border-color-base;
+}
+
+.border-left {
+  border-left: 1px solid $border-color-base;
+}
+
+.border-0 {
+  border: none;
+}
+
+.border-radius-base {
+  border-radius: $border-radius-base;
+}
+
+.border-radius-small {
+  border-radius: $border-radius-small;
+}
+
+.border-radius-large {
+  border-radius: $border-radius-large;
+}
+
+.border-radius-circle {
+  border-radius: $border-radius-circle;
+}
+
+// 间距
+.m-xs {
+  margin: $spacer-xs;
+}
+
+.m-sm {
+  margin: $spacer-sm;
+}
+
+.m-md {
+  margin: $spacer;
+}
+
+.m-lg {
+  margin: $spacer-lg;
+}
+
+.m-xl {
+  margin: $spacer-xl;
+}
+
+.mt-xs {
+  margin-top: $spacer-xs;
+}
+
+.mt-sm {
+  margin-top: $spacer-sm;
+}
+
+.mt-md {
+  margin-top: $spacer;
+}
+
+.mt-lg {
+  margin-top: $spacer-lg;
+}
+
+.mt-xl {
+  margin-top: $spacer-xl;
+}
+
+.mr-xs {
+  margin-right: $spacer-xs;
+}
+
+.mr-sm {
+  margin-right: $spacer-sm;
+}
+
+.mr-md {
+  margin-right: $spacer;
+}
+
+.mr-lg {
+  margin-right: $spacer-lg;
+}
+
+.mr-xl {
+  margin-right: $spacer-xl;
+}
+
+.mb-xs {
+  margin-bottom: $spacer-xs;
+}
+
+.mb-sm {
+  margin-bottom: $spacer-sm;
+}
+
+.mb-md {
+  margin-bottom: $spacer;
+}
+
+.mb-lg {
+  margin-bottom: $spacer-lg;
+}
+
+.mb-xl {
+  margin-bottom: $spacer-xl;
+}
+
+.ml-xs {
+  margin-left: $spacer-xs;
+}
+
+.ml-sm {
+  margin-left: $spacer-sm;
+}
+
+.ml-md {
+  margin-left: $spacer;
+}
+
+.ml-lg {
+  margin-left: $spacer-lg;
+}
+
+.ml-xl {
+  margin-left: $spacer-xl;
+}
+
+.p-xs {
+  padding: $spacer-xs;
+}
+
+.p-sm {
+  padding: $spacer-sm;
+}
+
+.p-md {
+  padding: $spacer;
+}
+
+.p-lg {
+  padding: $spacer-lg;
+}
+
+.p-xl {
+  padding: $spacer-xl;
+}
+
+.pt-xs {
+  padding-top: $spacer-xs;
+}
+
+.pt-sm {
+  padding-top: $spacer-sm;
+}
+
+.pt-md {
+  padding-top: $spacer;
+}
+
+.pt-lg {
+  padding-top: $spacer-lg;
+}
+
+.pt-xl {
+  padding-top: $spacer-xl;
+}
+
+.pr-xs {
+  padding-right: $spacer-xs;
+}
+
+.pr-sm {
+  padding-right: $spacer-sm;
+}
+
+.pr-md {
+  padding-right: $spacer;
+}
+
+.pr-lg {
+  padding-right: $spacer-lg;
+}
+
+.pr-xl {
+  padding-right: $spacer-xl;
+}
+
+.pb-xs {
+  padding-bottom: $spacer-xs;
+}
+
+.pb-sm {
+  padding-bottom: $spacer-sm;
+}
+
+.pb-md {
+  padding-bottom: $spacer;
+}
+
+.pb-lg {
+  padding-bottom: $spacer-lg;
+}
+
+.pb-xl {
+  padding-bottom: $spacer-xl;
+}
+
+.pl-xs {
+  padding-left: $spacer-xs;
+}
+
+.pl-sm {
+  padding-left: $spacer-sm;
+}
+
+.pl-md {
+  padding-left: $spacer;
+}
+
+.pl-lg {
+  padding-left: $spacer-lg;
+}
+
+.pl-xl {
+  padding-left: $spacer-xl;
+}
